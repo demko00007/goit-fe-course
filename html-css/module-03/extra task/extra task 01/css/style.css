@@ -1,0 +1,31 @@
+body {
+   font-family: 'Playfair Display', serif;
+   max-width: 800px;
+   margin: 0 auto;
+   
+}
+
+
+ul {
+   align-items: center;
+}
+
+ul li {
+   
+   display: inline-block;
+   margin: 0 30px;
+   
+}
+
+
+
+a {
+   color: #000000;
+   text-decoration: none;
+
+}
+
+a:hover {
+   color: red;
+   text-decoration: underline;
+}
