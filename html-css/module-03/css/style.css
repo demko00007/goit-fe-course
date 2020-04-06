@@ -11,7 +11,13 @@
 
 body {
    font-size: 14px;
+   font-family: 'Playfair Display', serif;
    
+}
+
+h2 {
+   font-size: 30px;
+   color: #626262;
 }
 
 /* Header=========================
@@ -79,7 +85,16 @@ body {
 .items {
    display: inline-block;
    width: 420px;
-   margin-right: 60px;   
+   margin-right: 60px;
+   margin-bottom: 130px;   
+}
+
+.items:nth-child(5) {
+   margin-bottom: 0;
+}
+
+.items:nth-child(6) {
+   margin-bottom: 0;
 }
 
 .items:nth-child(even) {
@@ -88,6 +103,21 @@ body {
    
 
 .about__item {
+   color: #b4ad9e;
+   text-transform: uppercase;
 }
 .text__item {
+   color: #626262;
+   line-height: 24px;
+   margin-bottom: 0;
+   /* margin-bottom: 130px; */
 }
+
+.bnt {
+   display: block;
+   margin: 0 auto;
+   padding: 24px 34px;
+   font-size: 20px;
+   
+}
+
