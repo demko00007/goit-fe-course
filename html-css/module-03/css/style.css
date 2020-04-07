@@ -61,6 +61,14 @@ h2 {
    
 }
 
+.nav__list a:hover {
+   color: #25b4f5;
+}
+
+.nav__list a:focus {
+   color: #25b4f5;
+}
+
 /* .nav__link:not(:nth-child(4n)) {
    margin-right: 120px;
 } */
@@ -115,9 +123,23 @@ h2 {
 
 .bnt {
    display: block;
-   margin: 0 auto;
+   margin: 54px auto 68px;
    padding: 24px 34px;
    font-size: 20px;
    
+   text-decoration: none;
+}
+
+.bnt a{
+   text-decoration: none;
+   color: #626262;
+}
+
+.bnt a:hover {
+   color: #25b4f5;
+}
+
+.bnt a:focus {
+   color: #25b4f5;
 }
 
