@@ -117,15 +117,16 @@ header {
 .product {
    width: 255px;
    height: 372px;
-   margin-top: 0px;
    margin-right: 30px;
-   margin-left: 0px;
    float: left;
    background-color: #333333;
 }
 
 .product:nth-child(4n + 4) {
    margin-right: 0px;
+}
+.product:nth-child(-n+4) {
+   margin-bottom: 30px;
 }
 .name_p {
    float: left;
