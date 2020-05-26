@@ -159,9 +159,9 @@ header {
    margin-top: 100px;
 }
 .blog {
-   margin-left: -40px;
+   margin-left: 0px;
    margin-top: 40px;
-   margin-right: 70px;
+   margin-right: 30px;
    width: 350px;
    float: left;
 }
