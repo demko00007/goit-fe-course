@@ -99,7 +99,6 @@ header {
    margin-right: -10px;
 }
 .nav_list {
-   width: 475px;
    margin: 10px;
    padding: 0;
 }
@@ -125,7 +124,7 @@ header {
 .product:nth-child(4n + 4) {
    margin-right: 0px;
 }
-.product:nth-child(-n+4) {
+.product:nth-child(-n + 4) {
    margin-bottom: 30px;
 }
 .name_p {
@@ -150,8 +149,7 @@ header {
    background-color: rgba(255, 255, 255, 0.44);
 }
 
-
-.product:hover  {
+.product:hover {
    background-color: #1abc9c;
 }
 
