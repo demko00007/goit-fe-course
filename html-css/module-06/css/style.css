@@ -137,13 +137,19 @@ h2::after {
 .services_list {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    text-align: left;
    margin-top: 106px;
 }
 
 .services_list_item {
+   width: 400px;
+   margin-top: 92px;
    padding-left: 92px;
    position: relative;
+}
+.services_list_item:nth-child(-n + 3) {
+   margin-top: 0;
 }
 
 .services_icon {
@@ -208,32 +214,36 @@ button {
 }
 
 .team_item:hover .team_img img {
-   opacity: 0.1;
+   /* opacity: 0.1; */
 }
 .team_img {
-   background-image: linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+   background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
    transition: all 0.1s;
 }
 
 .img_img {
    display: block;
 }
-.team_card:hover .team_img {
+.team_icon:hover .social_icon {
+   opacity: 1;
 }
 
-.team_icon {
-   display: inline-block;
+.social_icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    position: absolute;
    font-size: 0;
-   width: 227px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-55%, -50%);
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
    opacity: 0;
    transition: all 300ms;
+   background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.7) 0%, rgba(243, 129, 129, 0.7) 100%);
 }
 
-.team_card:hover .team_icon {
+.team_card:hover .social_icon {
    opacity: 1;
 }
 
