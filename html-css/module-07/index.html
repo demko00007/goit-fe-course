@@ -63,12 +63,14 @@
          <form action="#" class="message">
 
             <div class="input_text">
-               <input type="text" placeholder="Your name *">
-               <input type="text" placeholder="Your e-mail *">
-               <input type="text" placeholder="Subject">
+               <input class="input_contact" minlength="2" maxlength="35" name="user_name" type="text" required
+                  placeholder="Your name *">
+               <input class="input_contact" name="user_email" type="email" required placeholder="Your e-mail *">
+               <input class="input_contact" name="user_subject" type="text" required placeholder="Subject">
             </div>
-            <div class="textarea">
-               <textarea name="" id="" cols="30" placeholder="Your message *"></textarea>
+            <div class="textarea_box">
+               <textarea class="textarea_contact" minlength="10" name="message id="" cols=" 30"
+                  placeholder="Your message *"></textarea>
             </div>
 
             <button class="btn_contact">Send Message</button>

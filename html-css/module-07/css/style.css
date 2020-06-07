@@ -1,18 +1,13 @@
-* {
-   box-sizing: border-box;
-   margin: 0;
-}
-
 *,
 *::before,
 *::after {
    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
 body {
    font-family: "Montserrt", sans-serif;
-   padding: 0;
-   margin: 0;
    background-color: #ffffff;
 }
 
@@ -31,6 +26,12 @@ button {
    outline: none;
    background: none;
    border: none;
+}
+input {
+   outline: none;
+}
+textarea {
+   outline: none;
 }
 
 /* montserrat-regular - latin */
@@ -195,7 +196,6 @@ h3 {
    font-size: 14px;
    color: #bbbbbb;
    text-transform: uppercase;
-   padding-left: 20px;
 }
 
 textarea::placeholder {
@@ -204,8 +204,6 @@ textarea::placeholder {
    font-size: 14px;
    color: #bbbbbb;
    text-transform: uppercase;
-   padding-left: 20px;
-   padding-top: 20px;
 }
 
 .input_text {
@@ -214,22 +212,36 @@ textarea::placeholder {
    width: 50%;
 }
 
-input:first-child {
+.input_contact:first-child {
    margin-top: 1px;
 }
-input {
+.input_contact {
    margin-top: 28px;
-   width: 456px;
    height: 52px;
+   padding-left: 20px;
+}
+.input_contact:focus:valid {
+   border: 2px solid green;
 }
 
-.textarea {
+.input_contact:focus:invalid {
+   border: 2px solid red;
 }
 
-textarea {
+.textarea_contact {
    width: 456px;
    height: 100%;
    resize: none;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+.textarea_contact:focus:valid {
+   border: 2px solid green;
+}
+
+.textarea_contact:focus:invalid {
+   border: 2px solid red;
 }
 
 .btn_contact {
