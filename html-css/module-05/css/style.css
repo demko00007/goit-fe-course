@@ -9,12 +9,12 @@ ul {
    padding: 0;
 }
 .container {
-   width: 1600px;
+   width: 1110px;
    margin: 0 auto;
 }
 
 .header {
-   max-width: 1110px;
+   
    position: relative;
    margin: 0 auto;
 }
@@ -88,12 +88,14 @@ h1 {
    margin-top: 215px;
    margin-bottom: 25px;
 }
+
 h2 {
    font-family: "Roboto", sans-serif;
    font-weight: 300;
    margin: 0;
    margin-right: 283px;
 }
+
 h3 {
    font-family: "Roboto", sans-serif;
    font-weight: 900;
@@ -103,6 +105,7 @@ h3 {
    margin: 0;
    text-transform: uppercase;
 }
+
 h3::after {
    display: block;
    width: 165px;
@@ -111,43 +114,7 @@ h3::after {
    margin-top: 25px;
    margin-left: 42%;
 }
-/* }
-h1::before {
-   content: "";
-   display: inline-block;
-   width: 100px;
-   height: 100px;
-   position: absolute;
-   top: 230px;
-   left: 245px;
-   background: url(../img/icon/icon-left.png) no-repeat ;
-   background-size: 22px 38px;
-   background-position: center;
-}
-h1::after {
-   content: "";
-   display: block;
-   width: 100px;
-   height: 100px;
-   position: absolute;
-   top: 230px;
-   right: 245px;
-   background: url(../img/icon/icon-right.png) no-repeat;
-   opacity: 0.65;
-   transition: 0.3s;
-}
 
-h1:hover:after {
-   content: "";
-   display: block;
-   width: 100px;
-   height: 100px;
-   position: absolute;
-   top: 230px;
-   right: 245px;
-   background: url(../img/icon/icon-right.png) no-repeat;
-   opacity: 1;
-} */
 .section {
    height: 600px;
 }
@@ -184,147 +151,26 @@ h1:hover:after {
 .bnt-icon2:hover {
    opacity: 1;
    outline: none;
-
-   /////////////////////////////////////////////////
-   /////////////////////////////////////////////////
-   /////////////////////////////////////////////////
 }
 
-/* .overlay2 {
-position: absolute;
-
-   width: 100%;
-   height: 100%;
-   background-color: rgba(0, 0, 0, 0.44);
-   background-clip: padding-box
-}
-.section_2 {
-   position: relative;
-   width: 1110px;
-   height: 676;
-   margin: 0 auto;
-}
-
-.item {
-   margin: o auto;
-}
-
-.item_list {
-  
-   display: inline-block;
-   background-color: gray;
-   margin-left: 26px;  
-   width: 255px;
-   height: 362px;
-
-}
-
-
-
-.item_list:first-child {
-   margin-left: 0;
-}
-.iteme-img {
-   position: relative;
-   
-}
-.bnt {
-   position: absolute;
-   display: inline-block;
-   width: 170px;
-   height: 110px;
-   font-size: 0;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   
-}
-.bnt__img {
-   display: inline-block;
-   width: 255px;
-   height: 326px;
-   
-}
-.list_bnt {
-   display: inline-block;
-   width: 50px;
-   height: 50px;
-   margin-right: 10px;
-   background: red;
-   outline: none;
-   border: 1px solid #ffffff;
-   
-}
-
-.list_bnt:nth-child(3) {
-   margin-right: 0;
-}
-.list_bnt2 {
-   display: inline-block;
-   margin-top: 10px;
-   width: 170px;
-   height: 50px;
-   background: red;
-   outline: none;
-   border: 1px solid #ffffff;
-}
-.list_bnt2 img {
-   display: inline-block;
-   
-}
-.bnt2_name {
-   display: inline-block;
-   text-transform: uppercase;
-   padding-bottom: 15px;
-}
-
-
-.item_sub {
-   font-family: "Roboto", sans-serif;
-   font-size: 18px;
-   font-weight: 700;
-   text-transform: uppercase;
-   position: relative;
-}
-.item_name {
-   
-  
-   width: 165px;
-   height: 40px;
-   margin: 0px;
-   padding: 15px;
-   font-size: 18px;
-   font-weight: 900;
-   color: #ffffff;
-   text-transform: uppercase;
-}
-.item_price {
-   
-   
-   width: 60px;
-   height: 46px;
-   margin: 0;
-   padding: 15px;
-   font-size: 18px;
-   font-weight: 900;
-   color: #ffffff;
-   background-color: rgba(255, 255, 255, 0.44);
-} */
 button {
    background: none;
    outline: none;
    border: none;
 }
+
 .container2 {
    font-size: 0;
    width: 1600px;
    min-height: 680px;
    background: #e9f0fd;
 }
+
 .section2 {
-   width: 1110px;
-   margin: 0 auto;
+   font-size: 0;
+   background-color: #e9f0fd;
 }
+
 .card {
    display: inline-block;
    position: relative;
@@ -339,9 +185,11 @@ button {
    transition: 0.3s;
    margin-top: 80px;
 }
+
 .card:hover {
    background-color: #1abc9c;
 }
+
 .card:last-child {
    margin-right: 0;
 }
@@ -359,6 +207,7 @@ button {
    display: none;
    transition: 0.3s;
 }
+
 .card:hover .card_overlay {
    display: block;
 }
@@ -366,6 +215,7 @@ button {
 .card_info {
    display: inline-block;
 }
+
 .card_name {
    display: inline-block;
    width: 200px;
@@ -376,6 +226,7 @@ button {
    margin: 0;
    padding: 10px 0px 12px 12px;
 }
+
 .card_price {
    display: inline-block;
 
@@ -387,6 +238,7 @@ button {
    padding: 10px;
    background-color: rgba(255, 255, 255, 0.44);
 }
+
 .all_bnt {
    position: absolute;
    top: 50%;
@@ -421,9 +273,11 @@ button {
 .bnt_2:hover {
    background-color: #1abc9c;
 }
+
 .bnt_1:hover {
    background-color: #1abc9c;
 }
+
 .bnt_1:nth-child(3) {
    margin-right: 0;
 }
