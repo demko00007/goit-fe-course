@@ -61,7 +61,7 @@ button {
 .flex {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: baseline;
 }
 
 .bg {
@@ -71,7 +71,6 @@ button {
 
 .header {
    font-family: "Montserrat";
-   background-color: coral;
    padding-top: 38px;
    margin: 0 auto;
 }
@@ -134,8 +133,6 @@ button {
 }
 .header__titleBtn {
    margin-bottom: 230px;
-}
-.header__titleBtn a {
    font-family: "Montserrat";
    font-size: 14px;
    font-weight: 700;
@@ -316,6 +313,14 @@ button {
    font-weight: 300;
    font-style: italic;
    font-size: 15px;
+   padding-left: 12px;
+
+   border: 1px solid #e7e7e7;
+   border-right: none;
+}
+
+.color_text::placeholder {
+   color: #e7e7e7;
 }
 
 form {
